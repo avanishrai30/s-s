@@ -13,3 +13,19 @@
 .poster-recovery .poster-photo img{object-position:50% 40%;mix-blend-mode:normal}
 .poster-recovery .poster-shade{background:linear-gradient(180deg,#e9edf0e8, #e9edf077 48%,transparent 75%)}
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.poster-gain:hover .poster-photo img{scale:1.035}}
+/* Four-product carousel: a short crossfade inside the one-second cadence. */
+.campaign-pack{transition:opacity .38s ease-out}.campaign-copy{animation-duration:.3s}
+.review-photograph{margin:0;position:relative;padding:0;overflow:hidden;display:block;background:#d9dfd2}
+.review-photograph img{width:100%;height:100%;object-fit:cover;object-position:50% 42%;display:block}
+.review-photograph figcaption{position:absolute;bottom:0;left:0;right:0;padding:28px 14px 13px;background:linear-gradient(transparent,#172015e8);color:#fff;font-size:12px;line-height:1.45}
+.review-photograph figcaption span{font-size:10px;color:#e4e9e0}
+@media(max-width:760px){.review-stage{grid-template-columns:minmax(0,1fr)}.review-photograph{height:245px;width:100%;border-radius:15px}.review-photograph img{object-position:50% 40%}.review-feature{min-height:0}.reviews .review-feature blockquote p{min-height:0}.review-photograph figcaption{padding:30px 16px 14px}.review-photograph figcaption span{font-size:11px}}
+@media(max-width:760px) and (min-height:650px) and (prefers-reduced-motion:no-preference){
+ .goal-grid{display:block;isolation:isolate;padding-bottom:35px}
+ .goal-card.goal-poster,.goal-card.goal-poster:nth-child(-n+2),.goal-card.goal-poster:last-child{position:sticky;top:100px;height:min(530px,calc(100svh - 170px));margin-bottom:30px;box-shadow:0 -8px 30px #19161118;z-index:1}
+ .goal-card.goal-poster:nth-child(2){top:108px;z-index:2}.goal-card.goal-poster:nth-child(3){top:116px;z-index:3}.goal-card.goal-poster:nth-child(4){top:124px;z-index:4}.goal-card.goal-poster:nth-child(5){top:132px;z-index:5;margin-bottom:0}
+ .goal-card.goal-poster h3,.goal-card.goal-poster:nth-child(-n+2) h3{font-size:clamp(80px,13svh,112px)}
+ .poster-recovery .poster-photo{inset:-30px 0}
+ .goal-card:focus-visible{scroll-margin-top:140px}
+}
+@media(prefers-reduced-motion:reduce){.campaign-pack{transition:none}.campaign-copy{animation:none}}

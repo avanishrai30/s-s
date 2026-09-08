@@ -182,5 +182,41 @@
     "headline": "FIND YOUR EVERYDAY EDGE.",
     "premium": false,
     "source": "https://beyondsupps.in/products/avvatar-alpha-whey-protein-blend"
+  },
+  {
+    "id": "gold",
+    "slug": "nitro-tech-whey-gold",
+    "brand": "MuscleTech",
+    "name": "Nitro-Tech 100% Whey Gold",
+    "category": "Whey",
+    "type": "Whey protein formula",
+    "image": "/assets/hero-whey-gold.png",
+    "heroImage": "/assets/hero-whey-gold.png",
+    "tag": "EXPLORE THE RANGE",
+    "description": "Explore Nitro-Tech 100% Whey Gold from MuscleTech. Ask S&S to confirm the current product label, available flavours, pack sizes and pricing.",
+    "color": "#e9ddd6",
+    "accent": "#91624c",
+    "word": "FOCUS",
+    "headline": "MAKE YOUR ROUTINE COUNT.",
+    "premium": false,
+    "source": "https://www.muscletech.com/products/nitro-tech-100-whey-gold"
+  },
+  {
+    "id": "ripped",
+    "slug": "nitro-tech-ripped",
+    "brand": "MuscleTech",
+    "name": "Nitro-Tech Ripped",
+    "category": "Whey",
+    "type": "Whey protein formula",
+    "image": "/assets/hero-ripped.png",
+    "heroImage": "/assets/hero-ripped.png",
+    "tag": "EXPLORE THE RANGE",
+    "description": "Explore Nitro-Tech Ripped from MuscleTech. Ask S&S to confirm the current product label, available flavours, pack sizes and pricing.",
+    "color": "#e9ddd6",
+    "accent": "#91624c",
+    "word": "FOCUS",
+    "headline": "MAKE YOUR ROUTINE COUNT.",
+    "premium": false,
+    "source": "https://www.muscletech.com/products/nitro-tech-ripped"
   }
 ]

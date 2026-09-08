@@ -35,5 +35,19 @@
     "page": "https://unsplash.com/photos/xxWI_m22aUw",
     "image": "https://images.unsplash.com/photo-1785355064364-d275a792572e?auto=format&fit=crop&fm=jpg&q=85&w=1600",
     "license": "Unsplash License"
+  },
+  "hero-whey-gold.png": {
+    "page": "https://www.muscletech.com/products/nitro-tech-100-whey-gold",
+    "image": "https://cdn.shopify.com/s/files/1/1214/7132/files/mt-nitro-tech-100-whey-gold-cookies-cream-2lb.png?v=1753903525"
+  },
+  "hero-ripped.png": {
+    "page": "https://www.muscletech.com/products/nitro-tech-ripped",
+    "image": "https://cdn.shopify.com/s/files/1/1214/7132/files/mt-nitro-tech-ripped-chocolate-2lb.png?v=1754074256"
+  },
+  "review-community.jpg": {
+    "page": "https://unsplash.com/photos/UCuhN-D4-I8",
+    "image": "https://images.unsplash.com/photo-1772724317379-3b63d1a27a8c?auto=format&fit=crop&fm=jpg&q=85&w=1200",
+    "license": "Unsplash License",
+    "note": "Editorial community imagery; not named reviewers."
   }
 }
