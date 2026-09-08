@@ -30,6 +30,11 @@ export function initMotion(){
    if(title)ScrollTrigger.create({trigger:el,start:'top 88%',once:true,onEnter:()=>gsap.fromTo(title,{opacity:.45,y:22*distance},{opacity:1,y:0,duration:.8,ease:'power3.out',clearProps:'opacity,transform'})});
    const ribbon=el.querySelector('.poster-ribbon span');if(ribbon)gsap.fromTo(ribbon,{x:-35*distance},{x:35*distance,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'bottom top',scrub:1.4}});
   });
+  document.querySelectorAll('.visit-intro-copy h2,.footer-brand,.footer-links').forEach(el=>{
+   ScrollTrigger.create({trigger:el,start:'top 92%',once:true,onEnter:()=>gsap.fromTo(el,{y:25*distance,opacity:.45},{y:0,opacity:1,duration:.85,ease:'power3.out',clearProps:'opacity,transform'})});
+  });
+  document.querySelectorAll('.visit-local-strip>span').forEach(el=>gsap.fromTo(el,{x:-65*distance},{x:35*distance,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1.2}}));
+  document.querySelectorAll('.footer-statement>span:first-child').forEach(el=>gsap.fromTo(el,{y:20*distance},{y:0,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'top 50%',scrub:1}}));
   let cards=gsap.context(()=>{}),refreshFrame=0;
   const setupCards=()=>{cards.revert();cards=gsap.context(()=>{
    document.querySelectorAll('.product-image .pack-depth').forEach(el=>gsap.fromTo(el,{y:12*distance},{y:-12*distance,ease:'none',scrollTrigger:{trigger:el.closest('.product-image'),start:'top bottom',end:'bottom top',scrub:.9}}));
