@@ -1,0 +1,2 @@
+import {defineConfig} from 'vite';
+export default defineConfig({root:'dist',server:{host:'0.0.0.0',allowedHosts:['terminal.local']},plugins:[{name:'mobile-qa',configureServer(server){server.middlewares.use('/__qa/mobile',(_req,res)=>{res.setHeader('Content-Type','text/html');res.end('<!doctype html><html><head><title>Mobile storefront check</title></head><body style="margin:0;background:#ddd"><iframe title="Mobile storefront" src="/" style="display:block;width:390px;height:844px;border:0;margin:10px auto"></iframe></body></html>')})}}]});

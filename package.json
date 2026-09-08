@@ -1,0 +1,22 @@
+{
+  "name": "ss-supplements",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "vite",
+    "test": "node tests/storefront.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.9",
+    "jsdom": "^26.1.0",
+    "vite": "^7.1.3"
+  }
+}
