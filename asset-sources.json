@@ -20,5 +20,20 @@
     "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?auto=format&fit=crop&fm=jpg&q=85&w=1600",
     "license": "Unsplash License"
   },
-  "goal-sports.png": "User-supplied tennis reference"
+  "goal-sports.png": "User-supplied tennis reference",
+  "goal-bowl.jpg": {
+    "page": "https://unsplash.com/photos/F-wdTiqETDs",
+    "image": "https://images.unsplash.com/photo-1769479516223-e7209638915f?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License"
+  },
+  "goal-strength.jpg": {
+    "page": "https://unsplash.com/photos/sAKQGX1Krs8",
+    "image": "https://images.unsplash.com/photo-1532384555668-bc0c32a17ffd?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License"
+  },
+  "goal-recovery.jpg": {
+    "page": "https://unsplash.com/photos/xxWI_m22aUw",
+    "image": "https://images.unsplash.com/photo-1785355064364-d275a792572e?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License"
+  }
 }

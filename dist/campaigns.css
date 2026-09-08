@@ -6,3 +6,10 @@
 @media(max-width:560px){.goals{padding:48px 5%}.goals-heading{margin-bottom:28px}.goals-heading h2{font-size:50px}.goals-heading p{margin-top:18px;font-size:14px}.goal-grid{grid-template-columns:minmax(0,1fr);gap:20px}.goal-card.goal-poster,.goal-card.goal-poster:nth-child(-n+2),.goal-card.goal-poster:last-child{grid-column:auto;height:510px;border-radius:16px}.poster-top{top:24px;left:23px;right:23px;font-size:11px}.poster-title,.poster-recovery .poster-title{top:77px;left:23px;right:23px}.goal-card.goal-poster h3,.goal-card.goal-poster:nth-child(-n+2) h3{font-size:112px}.poster-daily h3{font-size:89px!important}.poster-title p{font-size:14px;max-width:200px}.poster-footer{min-height:78px;padding:20px 23px}.poster-footer>span:first-child{font-size:13px;max-width:135px}.poster-cta{font-size:11px;gap:9px}.poster-recovery .poster-photo{left:5%;right:-10%;top:-30px;bottom:40px}.poster-sports .poster-title p{max-width:125px}.poster-ribbon{bottom:111px;font-size:12px}.poster-recovery .poster-title p{max-width:120px}}
 @media(max-width:360px){.poster-footer{padding:17px}.poster-footer>span:first-child{font-size:12px;max-width:106px}.poster-cta{gap:6px;font-size:10px}.goal-card.goal-poster h3,.goal-card.goal-poster:nth-child(-n+2) h3{font-size:96px}}
 @media(prefers-reduced-motion:reduce){.poster-photo img{transition:none}}
+/* Individual crops for the three new category photographs. */
+.poster-daily .poster-photo img{object-position:50% 64%}
+.poster-gain .poster-photo img{object-position:50% 40%;scale:1}
+.poster-recovery .poster-photo{inset:-30px 0}
+.poster-recovery .poster-photo img{object-position:50% 40%;mix-blend-mode:normal}
+.poster-recovery .poster-shade{background:linear-gradient(180deg,#e9edf0e8, #e9edf077 48%,transparent 75%)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.poster-gain:hover .poster-photo img{scale:1.035}}
