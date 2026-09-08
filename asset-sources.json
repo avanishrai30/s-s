@@ -9,5 +9,16 @@
   "dym-clear.png": "https://sportsfood.no/cdn/shop/files/ISO900Clear_LemonIceTea_NEW_2.2024.png",
   "creatine.jpg": "https://cdn.shopify.com/s/files/1/0914/1816/5532/files/71ANPWW_dqL._SX679.jpg?v=1741895638",
   "aviso.jpg": "https://cdn.shopify.com/s/files/1/0914/1816/5532/files/71YhrWcyV_L._SX679.jpg?v=1767586582",
-  "avalpha.jpg": "https://cdn.shopify.com/s/files/1/0914/1816/5532/files/71UtE-U77BL._SX679.jpg?v=1767586257"
+  "avalpha.jpg": "https://cdn.shopify.com/s/files/1/0914/1816/5532/files/71UtE-U77BL._SX679.jpg?v=1767586257",
+  "goal-training.jpg": {
+    "page": "https://unsplash.com/photos/qZ-U9z4TQ6A",
+    "image": "https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License"
+  },
+  "goal-daily.jpg": {
+    "page": "https://unsplash.com/photos/nTZOILVZuOg",
+    "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License"
+  },
+  "goal-sports.png": "User-supplied tennis reference"
 }

@@ -24,8 +24,11 @@ export function initMotion(){
   });
   document.querySelectorAll('.values>div,.brand-tile').forEach((el,i)=>{ScrollTrigger.create({trigger:el,start:'top 94%',once:true,onEnter:()=>gsap.fromTo(el,{opacity:.4,y:18*distance},{opacity:1,y:0,duration:.75,delay:(i%3)*.07,ease:'power2.out',clearProps:'opacity,transform'})})});
   document.querySelectorAll('.goal-card').forEach((el,i)=>{
-   ScrollTrigger.create({trigger:el,start:'top 94%',once:true,onEnter:()=>gsap.fromTo(el,{opacity:.5,y:28*distance},{opacity:1,y:0,duration:.85,delay:(i%5)*.055,ease:'power3.out',clearProps:'opacity,transform'})});
-   const art=el.querySelector('.goal-art');if(art)gsap.fromTo(art,{y:16*distance,rotation:-8},{y:-16*distance,rotation:8,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'bottom top',scrub:1.4}});
+   const photo=el.querySelector('.poster-photo');
+   if(photo)gsap.fromTo(photo,{y:22*distance},{y:-22*distance,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'bottom top',scrub:1.2}});
+   const title=el.querySelector('.poster-title');
+   if(title)ScrollTrigger.create({trigger:el,start:'top 88%',once:true,onEnter:()=>gsap.fromTo(title,{opacity:.45,y:22*distance},{opacity:1,y:0,duration:.8,ease:'power3.out',clearProps:'opacity,transform'})});
+   const ribbon=el.querySelector('.poster-ribbon span');if(ribbon)gsap.fromTo(ribbon,{x:-35*distance},{x:35*distance,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'bottom top',scrub:1.4}});
   });
   let cards=gsap.context(()=>{}),refreshFrame=0;
   const setupCards=()=>{cards.revert();cards=gsap.context(()=>{
